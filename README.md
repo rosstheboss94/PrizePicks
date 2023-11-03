@@ -2,6 +2,9 @@
 **Technologies Used**: Spark, Azure Synapse, Azure SQL Database, Azure Data Lake Gen2   
 **Languages Used**: Python   
 
+Click [here](https://mlpicks.blackbay-d53af8c6.eastus.azurecontainerapps.io) to use web app.
+Web app [source code](https://github.com/rosstheboss94/ml-picks).
+
 1. ### Introduction
    The aim of this project is to eliminate emotions from sports betting by establishing an end-to-end data solution that harnesses the power of machine learning.
 2. ### Project Architecture
@@ -11,8 +14,8 @@
    - Gold Layer: The gold layer represents the top-level of the architecture and contains the highest quality, business-level aggregates. This layer is where data is processed and aggregated to provide valuable insights and analytics for business operations.
 
 3. ### Data Ingestion
-   - **Data Source**: Balldontlie API
-   - **Storage**: Raw JSON files are stored in the bronze layer of Azure Data Lake Gen2
+   - **Data Source**: Balldontlie API.
+   - **Storage**: Raw JSON files are stored in the bronze layer of Azure Data Lake Gen2.
     
    **Pipelines**:  
    [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/ingestions/pl_ingest_raw_data.jpg)  
@@ -24,8 +27,8 @@
    [ingest api teams](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_teams.ipynb)
 
 4. ### Staging
-   - **Data Source**: Bronze layer
-   - **Storage**: JSON files are stored in the silver layer of Azure Data Lake Gen2
+   - **Data Source**: Bronze layer.
+   - **Storage**: JSON files are stored in the silver layer of Azure Data Lake Gen2.
 
    **Pipelines**:     
    [pl extract to staging](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/extractions/pl_extract_to_staging.jpg)  
@@ -37,8 +40,8 @@
    [ingest stats json](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/4_ingest_stats_json.ipynb)
 
 5. ### Data Transformation
-   - **Data Source**: Silver layer
-   - **Storage**: JSON files are stored in the gold layer of Azure Data Lake Gen2
+   - **Data Source**: Silver layer.
+   - **Storage**: JSON files are stored in the gold layer of Azure Data Lake Gen2.
 
    **Pipelines**:   
    [pl transform dim games](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_dim_games.jpg)  
@@ -53,8 +56,8 @@
    [trans fact stats](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/gold/trans_fact_stats.ipynb)
 
 6. ### Load Data Warehouse
-   - **Data Source**: Gold Layer
-   - **Storage**: Azure SQL Database
+   - **Data Source**: Gold Layer.
+   - **Storage**: Azure SQL Database.
 
    **Pipelines**:    
    [pl load all tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/loads/pl_load_all_tables.jpg)   

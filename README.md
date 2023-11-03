@@ -52,7 +52,19 @@ Languages used: Python
    [trans dim players](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/gold/trans_dim_players.ipynb)   
    [trans dim teams](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/gold/trans_dim_teams.ipynb)   
    [trans fact games](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/gold/trans_fact_games.ipynb)   
-   [trans fact stats](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/gold/trans_fact_stats.ipynb)   
+   [trans fact stats](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/gold/trans_fact_stats.ipynb)
+
+6. ### Load Data Warehouse
+   - **Data Source**: Gold Layer
+   - **Storage**: Azure SQL Database
+
+   **Pipelines**:    
+   [pl load all tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/loads/pl_load_all_tables.jpg)   
+   [pl load dim games](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/loads/pl_load_dim_games.jpg)   
+   [pl load dim player](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/loads/pl_load_dim_player.jpg)   
+   [pl load dim team](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/loads/pl_load_dim_team.jpg)   
+   [pl load fact stats](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/loads/pl_load_fact_stats.jpg)   
+
 
 
 

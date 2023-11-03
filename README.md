@@ -36,7 +36,10 @@ Languages used: Python
    [pl transform fact tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_fact_tables.jpg)
 
    **Notebooks**:
-   [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_dim_games.jpg)
+   [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/1_ingest_teams_json.ipynb)  
+   [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/2_ingest_players_json.ipynb)  
+   [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/3_ingest_games_json.ipynb)  
+   [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/4_ingest_stats_json.ipynb)  
    
 
 

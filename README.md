@@ -17,7 +17,7 @@ Languages used: Python
    - **Storage**: Raw JSON files are stored in the bronze layer of Azure Data Lake Gen2
     
    **Pipelines**:  
-   [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/ingestions/pl_ingest_raw_data.jpg)
+   [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/ingestions/pl_ingest_raw_data.jpg)  
    
    **Notebooks**:  
    [ingest api games](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_games.ipynb)  
@@ -25,22 +25,28 @@ Languages used: Python
    [ingest api stats](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_stats.ipynb)  
    [ingest api teams](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_teams.ipynb)
 
-4. ### Data Transformation
+4. ### Staging
    - **Data Source**: Bronze layer
    - **Storage**: JSON files are stored in the silver layer of Azure Data Lake Gen2
 
    **Pipelines**:     
-   [pl transform dim games](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_dim_games.jpg)  
-   [pl transform dim tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_dim_tables.jpg)  
-   [pl transform fact stats](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_fact_stats.jpg)  
-   [pl transform fact tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_fact_tables.jpg)
+   [pl transform dim games](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/extractions/pl_extract_to_staging.jpg)  
 
    **Notebooks**:  
    [ingest teams json](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/1_ingest_teams_json.ipynb)  
    [ingest players json](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/2_ingest_players_json.ipynb)  
    [ingest games json](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/3_ingest_games_json.ipynb)  
-   [ingest stats json](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/4_ingest_stats_json.ipynb)  
-   
+   [ingest stats json](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/silver/4_ingest_stats_json.ipynb)
+
+5. ### Data Transformation
+   - **Data Source**: Silver layer
+   - **Storage**: JSON files are stored in the gold layer of Azure Data Lake Gen2
+
+   **Pipelines**:
+   [pl transform dim games](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_dim_games.jpg)  
+   [pl transform dim tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_dim_tables.jpg)  
+   [pl transform fact stats](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_fact_stats.jpg)  
+   [pl transform fact tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_fact_tables.jpg)  
 
 
 

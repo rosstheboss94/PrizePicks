@@ -30,7 +30,10 @@ Languages used: Python
    - **Storage**: JSON files are stored in the silver layer of Azure Data Lake Gen2
 
    **Pipelines**
-   [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/ingestions/pl_ingest_raw_data.jpg)
+   [pl transform dim games](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_dim_games.jpg)  
+   [pl transform dim tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_dim_tables.jpg)  
+   [pl transform fact stats](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_fact_stats.jpg)  
+   [pl transform fact tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_fact_tables.jpg)  
 
 
 

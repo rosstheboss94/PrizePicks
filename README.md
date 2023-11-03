@@ -1,9 +1,7 @@
 # PrizePicks
-Problem
-The purpose of this project is to take the emotion out of sports betting leveraing machine learning.
+**Technologies Used**: Spark, Azure Synapse, Azure SQL Database, Azure Data Lake Gen2   
+**Languages Used**: Python   
 
-Technologies used: Spark, Azure Synapse, Azure SQL Database, Azure Data Lake Gen2
-Languages used: Python
 1. ### Introduction
    The aim of this project is to eliminate emotions from sports betting by establishing an end-to-end data solution that harnesses the power of machine learning.
 2. ### Project Architecture

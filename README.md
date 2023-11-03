@@ -15,7 +15,8 @@ Languages used: Python
 3. ### Data Ingestion
    - **Data Source**: Balldontlie API
    - **Storage**: Raw JSON files are stored in the bronze layer of Azure Data Lake Gen2  
-   [Link Text](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_games.ipynb)
+   **Files**:  
+   [ingest_api_games](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_games.ipynb)
 5. 
 
 

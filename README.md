@@ -48,7 +48,7 @@ Languages used: Python
    [pl transform fact stats](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_fact_stats.jpg)  
    [pl transform fact tables](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/transformations/pl_transform_fact_tables.jpg)
 
-   **Notebooks**:
+   **Notebooks**:   
    [trans dim players](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/gold/trans_dim_players.ipynb)   
    [trans dim teams](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/gold/trans_dim_teams.ipynb)   
    [trans fact games](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/gold/trans_fact_games.ipynb)   

@@ -13,7 +13,7 @@ Languages used: Python
    - Gold Layer: The gold layer represents the top-level of the architecture and contains the highest quality, business-level aggregates. This layer is where data is processed and aggregated to provide valuable insights and analytics for business operations.
 
 3. ### Data Ingestion
-   - ### Data Source: balldontlie API
+   - **Data Source**: balldontlie API
    - ### Storage: Raw JSON files are stored in the bronze layer of Azure Data Lake Gen2
 5. 
 

@@ -17,12 +17,14 @@ Languages used: Python
    - **Storage**: Raw JSON files are stored in the bronze layer of Azure Data Lake Gen2
    https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/ingestions/pl_ingest_raw_data.jpg
    https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/ingestions/pl_ingest_raw_data.jpg
-   ![alt text](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/ingestions/pl_ingest_raw_data.jpg)
-   **Files**:  
+
+   **Pipelines**:
+   [pl ingest raw data](https://github.com/rosstheboss94/PrizePicks/blob/main/Pipelines/ingestions/pl_ingest_raw_data.jpg)
+   
+   **Notebooks**:  
    [ingest api games](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_games.ipynb)  
    [ingest api players](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_players.ipynb)  
    [ingest api stats](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_stats.ipynb)  
-   [ingest api teams](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_teams.ipynb)
    [ingest api teams](https://github.com/rosstheboss94/PrizePicks/blob/main/ingestions/bronze/ingest_api_teams.ipynb)
 
 5. 

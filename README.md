@@ -2,7 +2,7 @@
 **Technologies Used**: Spark, Azure Synapse, Azure SQL Database, Azure Data Lake Gen2   
 **Languages Used**: Python   
 
-Click [here](https://mlpicks.blackbay-d53af8c6.eastus.azurecontainerapps.io) to use web app.
+Click [here](https://mlpicks.blackbay-d53af8c6.eastus.azurecontainerapps.io) to use web app.   
 Web app [source code](https://github.com/rosstheboss94/ml-picks).
 
 1. ### Introduction

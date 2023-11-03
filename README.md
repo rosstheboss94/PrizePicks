@@ -4,7 +4,7 @@ The purpose of this project is to take the emotion out of sports betting leverai
 
 Technologies used: Spark, Azure Synapse, Azure SQL Database, Azure Data Lake Gen2
 Languages used: Python
-1. ###Introduction
+1. ### Introduction
    The aim of this project is to eliminate emotions from sports betting by establishing an end-to-end data solution that harnesses the power of machine learning.
 3. Project Architecture
    PrizePicks employs a medallion architecture in its data processing framework. In this architecture:
